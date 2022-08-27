@@ -1,5 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
 #***************************************************************************
 #*                                                                         *
 #*   Copyright (c) 2019 kbwbe                                              *
@@ -30,12 +31,14 @@ import glob
 #==============================================================================
 # Script for merging different translations of A2plus Workbench
 #
-# The script has to be started within the main A2plus Folder
+# The script has to be started within the A2plus/translations Folder
 #==============================================================================
 
-for fn in glob.glob('./translations/*_*.ts'):
+
+for fn in glob.glob('*_*.ts'):
     os.system(
         '''
         lrelease {}
         '''.format(fn)
         )
+
