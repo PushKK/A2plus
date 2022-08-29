@@ -6,32 +6,32 @@
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="20"/>
       <source>A2plus settings</source>
-      <translation type="unfinished">A2plus settings</translation>
+      <translation>Paramètres A2plus</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="38"/>
       <source>User interface settings</source>
-      <translation type="unfinished">User interface settings</translation>
+      <translation>Paramètres de l&apos;interface utilisateur</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="53"/>
       <source>Adds a creation button for every constraint type to the toolbar</source>
-      <translation type="unfinished">Adds a creation button for every constraint type to the toolbar</translation>
+      <translation>Ajoute un bouton de création pour chaque type de contrainte à la barre d&apos;outils</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="56"/>
       <source>Show constraints in toolbar</source>
-      <translation type="unfinished">Show constraints in toolbar</translation>
+      <translation>Afficher les contraintes dans la barre d&apos;outils</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="72"/>
       <source>Use native file manager of your OS</source>
-      <translation type="unfinished">Use native file manager of your OS</translation>
+      <translation>Utilisez le gestionnaire de fichiers natif de votre système d&apos;exploitation</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="107"/>
       <source>Behavior when updating imported parts</source>
-      <translation type="unfinished">Behavior when updating imported parts</translation>
+      <translation>Comportement lors de la mise à jour des pièces importées</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="122"/>
@@ -43,7 +43,7 @@ reconstructed using values from spreadsheets</translation>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="126"/>
       <source>Recalculate imported parts before updating them (experimental)</source>
-      <translation type="unfinished">Recalculate imported parts before updating them (experimental)</translation>
+      <translation>Recalculer les pièces importées avant de les mettre à jour (expérimental)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="139"/>
@@ -55,7 +55,7 @@ to update them</translation>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="143"/>
       <source>Enable recursive update of imported parts</source>
-      <translation type="unfinished">Enable recursive update of imported parts</translation>
+      <translation>Activer la mise à jour récursive des pièces importées</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="156"/>
@@ -71,19 +71,19 @@ will be updated according to the &quot;mux Info&quot; topology.</translation>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="162"/>
       <source>Use experimental topological naming</source>
-      <translation type="unfinished">Use experimental topological naming</translation>
+      <translation>Utiliser la dénomination topologique expérimentale</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="175"/>
       <source>Use color and transparency settings
 from imported parts</source>
-      <translation type="unfinished">Use color and transparency settings
-from imported parts</translation>
+      <translation>Utiliser les paramètres de couleur
+et de transparence des pièces importées</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="179"/>
       <source>Inherit per face color and transparency from parts and subassemblies (experimental)</source>
-      <translation type="unfinished">Inherit per face color and transparency from parts and subassemblies (experimental)</translation>
+      <translation>Héritage de la couleur et de la transparence par face des pièces et des sous-assemblages (expérimental)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="192"/>
@@ -104,52 +104,52 @@ subassemblies. Otherwise you can break the assembly.</translation>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="201"/>
       <source>Do not import invisible shapes (for expert users)</source>
-      <translation type="unfinished">Do not import invisible shapes (for expert users)</translation>
+      <translation>Ne pas importer de formes invisibles (pour les utilisateurs experts)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="214"/>
       <source>Use solid union for importing parts and subassemblies (experimental)</source>
-      <translation type="unfinished">Use solid union for importing parts and subassemblies (experimental)</translation>
+      <translation>Utiliser l&apos;union solide pour importer des pièces et des sous-assemblages (expérimental)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="243"/>
       <source>Storage of files</source>
-      <translation type="unfinished">Storage of files</translation>
+      <translation>Stockage de fichiers</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="258"/>
       <source>Use relative paths for imported parts</source>
-      <translation type="unfinished">Use relative paths for imported parts</translation>
+      <translation>Utiliser des chemins relatifs pour les pièces importées</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="274"/>
       <source>Use absolute paths for imported parts</source>
-      <translation type="unfinished">Use absolute paths for imported parts</translation>
+      <translation>Utiliser des chemins absolus pour les pièces importées</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="287"/>
       <source>Specify the project folder in the field below</source>
-      <translation type="unfinished">Specify the project folder in the field below</translation>
+      <translation>Spécifiez le dossier du projet dans le champ ci-dessous</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="290"/>
       <source>All files are in this project folder:</source>
-      <translation type="unfinished">All files are in this project folder:</translation>
+      <translation>Tous les fichiers sont dans ce dossier de projet&#xa0;:</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="357"/>
       <source>Default solver behavior</source>
-      <translation type="unfinished">Default solver behavior</translation>
+      <translation>Comportement par défaut du solveur</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="369"/>
       <source>Solve automatically if a constraint property is changed</source>
-      <translation type="unfinished">Solve automatically if a constraint property is changed</translation>
+      <translation>Résoudre automatiquement si une propriété de contrainte est modifiée</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="398"/>
       <source>Default solving method</source>
-      <translation type="unfinished">Default solving method</translation>
+      <translation>Méthode de résolution par défaut</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="413"/>
@@ -165,7 +165,7 @@ calculation and so on.</translation>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="419"/>
       <source>Use solving of partial systems (recommended for static assemblies)</source>
-      <translation type="unfinished">Use solving of partial systems (recommended for static assemblies)</translation>
+      <translation>Utiliser la résolution de systèmes partiels (recommandé pour les assemblages statiques)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="435"/>
@@ -177,7 +177,7 @@ in direction to a fixed part</translation>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="439"/>
       <source>Use &quot;magnetic&quot; solver, solving all parts at once (for dynamical assemblies)</source>
-      <translation type="unfinished">Use &quot;magnetic&quot; solver, solving all parts at once (for dynamical assemblies)</translation>
+      <translation>Utiliser un solveur &quot;magnétique&quot;, résolvant toutes les pièces à la fois (pour les assemblages dynamiques)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="452"/>
@@ -189,7 +189,7 @@ where they were created</translation>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="456"/>
       <source>Force fixed position to all imports</source>
-      <translation type="unfinished">Force fixed position to all imports</translation>
+      <translation>Forcer une position fixe à toutes les importations</translation>
     </message>
   </context>
   <context>
@@ -351,22 +351,22 @@ is invisible at first time.
     <message>
       <location filename="../InitGui.py" line="197"/>
       <source>Constraint</source>
-      <translation type="unfinished">Constraint</translation>
+      <translation>Contrainte</translation>
     </message>
     <message>
       <location filename="../InitGui.py" line="201"/>
       <source>Solver</source>
-      <translation type="unfinished">Solver</translation>
+      <translation>Solveur</translation>
     </message>
     <message>
       <location filename="../InitGui.py" line="205"/>
       <source>View</source>
-      <translation type="unfinished">View</translation>
+      <translation>Voir</translation>
     </message>
     <message>
       <location filename="../InitGui.py" line="209"/>
       <source>Misc</source>
-      <translation type="unfinished">Misc</translation>
+      <translation>Divers</translation>
     </message>
   </context>
   <context>
