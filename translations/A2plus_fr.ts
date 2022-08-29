@@ -248,7 +248,7 @@ recent assembly are collected.
     <message>
       <location filename="../a2p_bom.py" line="178"/>
       <source>No active document found!</source>
-      <translation type="unfinished">No active document found!</translation>
+      <translation>Aucun document actif trouvé !</translation>
     </message>
     <message>
       <location filename="../a2p_bom.py" line="178"/>
