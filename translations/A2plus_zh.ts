@@ -6,22 +6,22 @@
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="20"/>
       <source>A2plus settings</source>
-      <translation type="unfinished">A2plus settings</translation>
+      <translation>A2plus设置</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="38"/>
       <source>User interface settings</source>
-      <translation type="unfinished">User interface settings</translation>
+      <translation>用户界面设置</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="53"/>
       <source>Adds a creation button for every constraint type to the toolbar</source>
-      <translation type="unfinished">Adds a creation button for every constraint type to the toolbar</translation>
+      <translation>为每个约束类型添加创建按钮到工具栏</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="56"/>
       <source>Show constraints in toolbar</source>
-      <translation type="unfinished">Show constraints in toolbar</translation>
+      <translation>在工具栏中显示约束</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="72"/>
