@@ -26,36 +26,36 @@
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="72"/>
       <source>Use native file manager of your OS</source>
-      <translation type="unfinished">Use native file manager of your OS</translation>
+      <translation>使用您操作系统的本地文件管理器</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="107"/>
       <source>Behavior when updating imported parts</source>
-      <translation type="unfinished">Behavior when updating imported parts</translation>
+      <translation>更新导入部件时的行为</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="122"/>
       <source>All parts of the assembly will be opened in FreeCAD to be
 reconstructed using values from spreadsheets</source>
-      <translation type="unfinished">All parts of the assembly will be opened in FreeCAD to be
-reconstructed using values from spreadsheets</translation>
+      <translation>程序集的所有部分将在 FreeCAD 中打开，然后使用
+从电子表格中的值进行重建</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="126"/>
       <source>Recalculate imported parts before updating them (experimental)</source>
-      <translation type="unfinished">Recalculate imported parts before updating them (experimental)</translation>
+      <translation>在更新前重新计算导入的元件(实验性)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="139"/>
       <source>Opens all subassemblies recursively
 to update them</source>
-      <translation type="unfinished">Opens all subassemblies recursively
-to update them</translation>
+      <translation>递归打开所有子组件
+以更新它们。</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="143"/>
       <source>Enable recursive update of imported parts</source>
-      <translation type="unfinished">Enable recursive update of imported parts</translation>
+      <translation>启用导入部件的递归更新</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="156"/>
@@ -63,27 +63,26 @@ to update them</translation>
 are written into &quot;mux Info&quot; property. When the parts are
 later updated the properties &quot;Sub Elementx&quot; of the constraints
 will be updated according to the &quot;mux Info&quot; topology.</source>
-      <translation type="unfinished">While importing parts to the assembly, the topological names
-are written into &quot;mux Info&quot; property. When the parts are
-later updated the properties &quot;Sub Elementx&quot; of the constraints
-will be updated according to the &quot;mux Info&quot; topology.</translation>
+      <translation>在向组件导入部件时，
+的地名被写入 &quot;mux Info&quot; 属性。 当组件是
+稍后更新时，约束的属性 &quot;子元素&quot; 将根据 &quot;mux信息&quot; 地形更新
+。</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="162"/>
       <source>Use experimental topological naming</source>
-      <translation type="unfinished">Use experimental topological naming</translation>
+      <translation>使用实验性地物命名。</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="175"/>
       <source>Use color and transparency settings
 from imported parts</source>
-      <translation type="unfinished">Use color and transparency settings
-from imported parts</translation>
+      <translation>从导入的部件使用颜色和透明度设置</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="179"/>
       <source>Inherit per face color and transparency from parts and subassemblies (experimental)</source>
-      <translation type="unfinished">Inherit per face color and transparency from parts and subassemblies (experimental)</translation>
+      <translation>从零部件和子组件中继承每个脸色和透明度(实验性)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="192"/>
@@ -91,15 +90,15 @@ from imported parts</translation>
 Note: No constraints must be connected to
 datum/construction shapes in higher or other
 subassemblies. Otherwise you can break the assembly.</source>
-      <translation type="unfinished">Invisible datum/construction shapes will be hidden.
-Note: No constraints must be connected to
-datum/construction shapes in higher or other
-subassemblies. Otherwise you can break the assembly.</translation>
+      <translation>隐藏的数据/构造形状将被隐藏。
+注意：没有约束必须连接到
+数据/构建形状在较高或其他
+子组件中。否则您可以破坏组合。</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="198"/>
       <source>All imported parts will directly be put together as union.</source>
-      <translation type="unfinished">All imported parts will directly be put together as union.</translation>
+      <translation>所有进口的部件都将作为结合直接组合。</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="201"/>
