@@ -1370,20 +1370,20 @@ After confirmation all related
 constraints are deleted
 at once.
 </source>
-      <translation type="unfinished">
-Delete all constraints
-of a selected part.
+      <translation>
+Удалить все ограничения
+выбранной детали.
 
-Select exact one part
-and hit this button.
+Выберите точно одну деталь
+и нажмите на эту кнопку.
 
-A confirmation dialog pops
-up, showing all constraints
-related to the selected part.
+Всплывёт диалог подтверждения 
+с указанием всех ограничений,
+связанных с выбранной деталью.
 
-After confirmation all related
-constraints are deleted
-at once.
+После подтверждения все соответствующие
+ограничения удаляются
+сразу.
 </translation>
     </message>
     <message>
@@ -1458,20 +1458,20 @@ If you select nothing and hit
 this button, all invisible parts
 will be made visible again.
 </source>
-      <translation type="unfinished">
-Show only selected elements,
-or all if none is selected.
+      <translation>
+Показать только выбранные элементы,
+или все, если ничего не выбрано.
 
-Select one or more parts,
-which are the only ones you
-want to see in a big assembly.
+Выберите одну или несколько деталей,
+только которые Вы
+хотите увидеть в большой сборке.
 
-Hit this button, and all other
-parts will be made invisible.
+Нажмите эту кнопку, и все остальные
+детали станут невидимыми.
 
-If you select nothing and hit
-this button, all invisible parts
-will be made visible again.
+Если Вы ничего не выберете и нажмёте
+эту кнопку, все невидимые детали
+снова будут видимы.
 </translation>
     </message>
     <message>
