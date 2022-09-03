@@ -1949,12 +1949,12 @@ to a fixed part!
     <message>
       <location filename="../a2p_solversystem.py" line="739"/>
       <source>Solve constraints</source>
-      <translation type="unfinished">Solve constraints</translation>
+      <translation>Begrenzungen lösen</translation>
     </message>
     <message>
       <location filename="../a2p_solversystem.py" line="740"/>
       <source>Solves constraints</source>
-      <translation type="unfinished">Solves constraints</translation>
+      <translation>Löst Einschränkungen</translation>
     </message>
   </context>
 </TS>
