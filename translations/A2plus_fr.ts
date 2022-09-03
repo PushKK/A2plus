@@ -49,8 +49,8 @@ reconstructed using values from spreadsheets</translation>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="139"/>
       <source>Opens all subassemblies recursively
 to update them</source>
-      <translation type="unfinished">Opens all subassemblies recursively
-to update them</translation>
+      <translation>Ouvre tous les sous-ensembles récursivement
+pour les mettre à jour</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="143"/>
@@ -99,7 +99,7 @@ subassemblies. Otherwise you can break the assembly.</translation>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="198"/>
       <source>All imported parts will directly be put together as union.</source>
-      <translation type="unfinished">All imported parts will directly be put together as union.</translation>
+      <translation>Toutes les pièces importées seront directement assemblées en tant qu’union.</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="201"/>
@@ -286,7 +286,7 @@ recent assembly are collected.
     <message>
       <location filename="../a2p_bom.py" line="263"/>
       <source>Create a spreadsheet with a parts list of this file</source>
-      <translation type="unfinished">Create a spreadsheet with a parts list of this file</translation>
+      <translation>Créer une feuille de calcul avec une liste des parties de ce fichier</translation>
     </message>
   </context>
   <context>
@@ -323,7 +323,7 @@ is invisible at first time.
     <message>
       <location filename="../a2p_MuxAssembly.py" line="261"/>
       <source>Cannot create SimpleAssemblyShape</source>
-      <translation type="unfinished">Cannot create SimpleAssemblyShape</translation>
+      <translation>Impossible de créer la forme SimpleAssemblyShape</translation>
     </message>
     <message>
       <location filename="../a2p_MuxAssembly.py" line="261"/>
@@ -511,7 +511,7 @@ et cliquez sur ce bout
     <message>
       <location filename="../a2p_constraintServices.py" line="109"/>
       <source>Re-adjust directions of all constraints to fit best</source>
-      <translation type="unfinished">Re-adjust directions of all constraints to fit best</translation>
+      <translation>Ré-ajuster les directions de toutes les contraintes pour correspondre au mieux</translation>
     </message>
   </context>
   <context>
@@ -554,37 +554,37 @@ et cliquez sur ce bout
     <message>
       <location filename="../a2p_constraintcommands.py" line="233"/>
       <source>Add axisPlaneParallel constraint</source>
-      <translation type="unfinished">Add axisPlaneParallel constraint</translation>
+      <translation>Ajouter la contrainte axisPlaneParallel</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="258"/>
       <source>Add axisPlaneAngle constraint</source>
-      <translation type="unfinished">Add axisPlaneAngle constraint</translation>
+      <translation>Ajouter une contrainte axisPlaneAnggle</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="283"/>
       <source>Add axisPlaneNormal constraint</source>
-      <translation type="unfinished">Add axisPlaneNormal constraint</translation>
+      <translation>Ajouter une contrainte axisPlaneNormal</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="308"/>
       <source>Add planesParallel constraint</source>
-      <translation type="unfinished">Add planesParallel constraint</translation>
+      <translation>Ajouter la contrainte planesParallèle</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="333"/>
       <source>Add planeCoincident constraint</source>
-      <translation type="unfinished">Add planeCoincident constraint</translation>
+      <translation>Ajouter la contrainte planeCoincident</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="359"/>
       <source>Add angledPlanes constraint</source>
-      <translation type="unfinished">Add angledPlanes constraint</translation>
+      <translation>Ajouter une contrainte d'angledPlanes</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="386"/>
       <source>Add centerOfMass constraint</source>
-      <translation type="unfinished">Add centerOfMass constraint</translation>
+      <translation>Ajouter une contrainte au centreDeMasse</translation>
     </message>
   </context>
   <context>
@@ -600,14 +600,14 @@ Select:
 
 Button gets active after correct selection.
 </source>
-      <translation type="unfinished">
-Create the point-to-point constraint (pointIdentity)
+      <translation>
+Crée la contrainte point à point (pointIdentity)
 
-Select:
-1) A vertex, a circle, or a sphere (on a part)
-2) A vertex, a circle, or a sphere (on another part)
+Sélectionnée :
+1) Un sommet, un cercle, ou une sphère (sur une partie)
+2) Un sommet, un cercle ou une sphère (sur une autre partie)
 
-Button gets active after correct selection.
+Le bouton est actif après une sélection correcte. 
 </translation>
     </message>
     <message>
@@ -1006,17 +1006,17 @@ within this workbench.
     <message>
       <location filename="../a2p_convertPart.py" line="168"/>
       <source>Convert a part to A2plus</source>
-      <translation type="unfinished">Convert a part to A2plus</translation>
+      <translation>Convertir une partie en A2plus</translation>
     </message>
     <message>
       <location filename="../a2p_convertPart.py" line="177"/>
       <source>Please select only visible parts!</source>
-      <translation type="unfinished">Please select only visible parts!</translation>
+      <translation>Veuillez ne sélectionner que les pièces visibles !</translation>
     </message>
     <message>
       <location filename="../a2p_convertPart.py" line="178"/>
       <source>Conversion Aborted</source>
-      <translation type="unfinished">Conversion Aborted</translation>
+      <translation>Conversion abandonnée</translation>
     </message>
   </context>
   <context>
@@ -1045,7 +1045,7 @@ to the assembly
     <message>
       <location filename="../a2p_importpart.py" line="444"/>
       <source>Add shapes from an external file</source>
-      <translation type="unfinished">Add shapes from an external file</translation>
+      <translation>Ajouter des formes à partir d'un fichier extérieur</translation>
     </message>
     <message>
       <location filename="../a2p_importpart.py" line="527"/>
@@ -1055,7 +1055,7 @@ to the assembly
     <message>
       <location filename="../a2p_importpart.py" line="528"/>
       <source>Value Error</source>
-      <translation type="unfinished">Value Error</translation>
+      <translation>Erreur valeur</translation>
     </message>
     <message>
       <location filename="../a2p_importpart.py" line="576"/>
@@ -1070,9 +1070,9 @@ to the assembly
 Restore transparency to
 active document objects
 </source>
-      <translation type="unfinished">
-Restore transparency to
-active document objects
+      <translation>
+Restaurer la transparence des
+objets de document actif
 </translation>
     </message>
     <message>
@@ -1185,7 +1185,7 @@ this function.)
     <message>
       <location filename="../a2p_importpart.py" line="928"/>
       <source>Update parts imported into the assembly</source>
-      <translation type="unfinished">Update parts imported into the assembly</translation>
+      <translation>Mettre à jour les pièces importées dans l'assembleur</translation>
     </message>
     <message>
       <location filename="../a2p_importpart.py" line="978"/>
@@ -1219,7 +1219,7 @@ multiple times.
     <message>
       <location filename="../a2p_importpart.py" line="1032"/>
       <source>Create duplicate of a part</source>
-      <translation type="unfinished">Create duplicate of a part</translation>
+      <translation>Créer un dupliqué d'une pièce</translation>
     </message>
     <message>
       <location filename="../a2p_importpart.py" line="1041"/>
@@ -1503,7 +1503,7 @@ will be made visible again.
     <message>
       <location filename="../a2p_importpart.py" line="1631"/>
       <source>Toggles transparency of assembly</source>
-      <translation type="unfinished">Toggles transparency of assembly</translation>
+      <translation>Active la transparence de l'assemblage</translation>
     </message>
     <message>
       <location filename="../a2p_importpart.py" line="1639"/>
@@ -1533,12 +1533,12 @@ by hitting the solvebutton
     <message>
       <location filename="../a2p_importpart.py" line="1664"/>
       <source>Toggle auto solve</source>
-      <translation type="unfinished">Toggle auto solve</translation>
+      <translation>Basculer la résolution auto</translation>
     </message>
     <message>
       <location filename="../a2p_importpart.py" line="1684"/>
       <source>Toggle partial processing</source>
-      <translation type="unfinished">Toggle partial processing</translation>
+      <translation>Activer/désactiver traitement partiel</translation>
     </message>
     <message>
       <location filename="../a2p_importpart.py" line="1692"/>
@@ -1574,7 +1574,7 @@ toggled between &apos;aligned&apos; and
     <message>
       <location filename="../a2p_importpart.py" line="1741"/>
       <source>Flip direction of last constraint</source>
-      <translation type="unfinished">Flip direction of last constraint</translation>
+      <translation>Basculer la direction de la dernière contrainte</translation>
     </message>
     <message>
       <location filename="../a2p_importpart.py" line="1788"/>
@@ -1589,7 +1589,7 @@ toggled between &apos;aligned&apos; and
     <message>
       <location filename="../a2p_importpart.py" line="1813"/>
       <source>Nothing found to be labeled!</source>
-      <translation type="unfinished">Nothing found to be labeled!</translation>
+      <translation>Aucune étiquette trouvée !</translation>
     </message>
     <message>
       <location filename="../a2p_importpart.py" line="1813"/>
@@ -1599,7 +1599,7 @@ toggled between &apos;aligned&apos; and
     <message>
       <location filename="../a2p_importpart.py" line="1854"/>
       <source>Show part labels in 3D view</source>
-      <translation type="unfinished">Show part labels in 3D view</translation>
+      <translation>Afficher les étiquettes de pièces en vue 3D</translation>
     </message>
     <message>
       <location filename="../a2p_importpart.py" line="1855"/>
@@ -1639,7 +1639,7 @@ toggled between &apos;aligned&apos; and
     <message>
       <location filename="../a2p_importpart.py" line="1958"/>
       <source>Save and exit the active document</source>
-      <translation type="unfinished">Save and exit the active document</translation>
+      <translation>Enregistrez et quittez le document</translation>
     </message>
     <message>
       <location filename="../a2p_importpart.py" line="1964"/>
@@ -1711,7 +1711,7 @@ Clean up solver debug output from 3D view
     <message>
       <location filename="../a2p_importpart.py" line="2164"/>
       <source>Clean up solver debug output from 3D view</source>
-      <translation type="unfinished">Clean up solver debug output from 3D view</translation>
+      <translation>Nettoyer la sortie de débogage du solveur en 3D</translation>
     </message>
   </context>
   <context>
@@ -1719,12 +1719,12 @@ Clean up solver debug output from 3D view
     <message>
       <location filename="../a2plib.py" line="1130"/>
       <source>Not existing part(s):</source>
-      <translation type="unfinished">Not existing part(s):</translation>
+      <translation>Pièce(s) existante(s):</translation>
     </message>
     <message>
       <location filename="../a2plib.py" line="1133"/>
       <source>Constraints of missing parts removed!</source>
-      <translation type="unfinished">Constraints of missing parts removed!</translation>
+      <translation>Contraintes des pièces manquantes retirées !</translation>
     </message>
   </context>
   <context>
@@ -1757,12 +1757,12 @@ by the parts list function of A2plus.
     <message>
       <location filename="../a2p_partinformation.py" line="59"/>
       <source>No active document found!</source>
-      <translation type="unfinished">No active document found!</translation>
+      <translation>Aucun document actif!</translation>
     </message>
     <message>
       <location filename="../a2p_partinformation.py" line="59"/>
       <source>You have to open a FCStd file first.</source>
-      <translation type="unfinished">You have to open a FCStd file first.</translation>
+      <translation>Il faut d'abord ouvrir un fichier FCStd.</translation>
     </message>
     <message>
       <location filename="../a2p_partinformation.py" line="88"/>
@@ -1823,7 +1823,7 @@ if necessary, too.
     <message>
       <location filename="../a2p_recursiveUpdatePlanner.py" line="208"/>
       <source>Update imports recursively</source>
-      <translation type="unfinished">Update imports recursively</translation>
+      <translation>Mettre à jour les importations en récursif</translation>
     </message>
   </context>
   <context>
@@ -1882,12 +1882,12 @@ Do you want to delete this constraint-pair?
     <message>
       <location filename="../a2p_searchConstraintConflicts.py" line="95"/>
       <source>Searching for conflicting constraints</source>
-      <translation type="unfinished">Searching for conflicting constraints</translation>
+      <translation>Recherche de contraintes conflictuelles</translation>
     </message>
     <message>
       <location filename="../a2p_searchConstraintConflicts.py" line="112"/>
       <source>Identify conflicting constraints</source>
-      <translation type="unfinished">Identify conflicting constraints</translation>
+      <translation>Identifier les contraintes contradictoires</translation>
     </message>
   </context>
   <context>
@@ -1900,17 +1900,17 @@ Do you want to delete this constraint-pair?
     <message>
       <location filename="../a2p_solversystem.py" line="220"/>
       <source>The following constraints are broken:</source>
-      <translation type="unfinished">The following constraints are broken:</translation>
+      <translation>Les contraintes suivantes sont brisées :</translation>
     </message>
     <message>
       <location filename="../a2p_solversystem.py" line="223"/>
       <source>Do you want to delete them ?</source>
-      <translation type="unfinished">Do you want to delete them ?</translation>
+      <translation>Voulez-vous les effacer ?</translation>
     </message>
     <message>
       <location filename="../a2p_solversystem.py" line="226"/>
       <source>Delete broken constraints?</source>
-      <translation type="unfinished">Delete broken constraints?</translation>
+      <translation>Supprimer les contraintes brisées?</translation>
     </message>
     <message>
       <location filename="../a2p_solversystem.py" line="525"/>
@@ -1926,7 +1926,7 @@ Please run the conflict finder tool !
     <message>
       <location filename="../a2p_solversystem.py" line="531"/>
       <source>Constraint mismatch</source>
-      <translation type="unfinished">Constraint mismatch</translation>
+      <translation>Discordance de contrainte</translation>
     </message>
     <message>
       <location filename="../a2p_solversystem.py" line="549"/>
@@ -1944,17 +1944,17 @@ to a fixed part!
     <message>
       <location filename="../a2p_solversystem.py" line="554"/>
       <source>Could not move some parts</source>
-      <translation type="unfinished">Could not move some parts</translation>
+      <translation>Impossible de déplacer des pièces</translation>
     </message>
     <message>
       <location filename="../a2p_solversystem.py" line="739"/>
       <source>Solve constraints</source>
-      <translation type="unfinished">Solve constraints</translation>
+      <translation>Résoudre des contraintes</translation>
     </message>
     <message>
       <location filename="../a2p_solversystem.py" line="740"/>
       <source>Solves constraints</source>
-      <translation type="unfinished">Solves constraints</translation>
+      <translation>Résolution des contraintes</translation>
     </message>
   </context>
 </TS>
