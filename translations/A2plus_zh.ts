@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="zh-TW" sourcelanguage="en">
+<TS version="2.1" language="zh-CN" sourcelanguage="en">
   <context>
     <name>A2p_BoM</name>
     <message>
@@ -807,7 +807,7 @@ toggled between &apos;aligned&apos; and
     <message>
       <location filename="../a2p_solversystem.py" line="720"/>
       <source>No active document found!</source>
-      <translation type="unfinished">No active document found!</translation>
+      <translation>未找到活动文档！</translation>
     </message>
     <message>
       <location filename="../a2p_importpart.py" line="1905"/>
@@ -1542,22 +1542,22 @@ to a fixed part!
     <message>
       <location filename="../InitGui.py" line="199"/>
       <source>Constraint</source>
-      <translation type="unfinished">Constraint</translation>
+      <translation>制约因素</translation>
     </message>
     <message>
       <location filename="../InitGui.py" line="203"/>
       <source>Solver</source>
-      <translation type="unfinished">Solver</translation>
+      <translation>求解</translation>
     </message>
     <message>
       <location filename="../InitGui.py" line="207"/>
       <source>View</source>
-      <translation type="unfinished">View</translation>
+      <translation>查看</translation>
     </message>
     <message>
       <location filename="../InitGui.py" line="211"/>
       <source>Misc</source>
-      <translation type="unfinished">Misc</translation>
+      <translation>其他</translation>
     </message>
   </context>
   <context>
@@ -1565,22 +1565,22 @@ to a fixed part!
     <message>
       <location filename="../a2p_constraintServices.py" line="89"/>
       <source>Recalculate direction of constraints</source>
-      <translation type="unfinished">Recalculate direction of constraints</translation>
+      <translation>重新计算约束方向</translation>
     </message>
     <message>
       <location filename="../a2p_constraintServices.py" line="89"/>
       <source>Do you really want to recalculate the directions of all constraints?</source>
-      <translation type="unfinished">Do you really want to recalculate the directions of all constraints?</translation>
+      <translation>您真的想要重新计算所有限制的方向吗？</translation>
     </message>
     <message>
       <location filename="../a2p_constraintServices.py" line="108"/>
       <source>Re-adjust directions of all constraints</source>
-      <translation type="unfinished">Re-adjust directions of all constraints</translation>
+      <translation>重新调整所有约束的方向</translation>
     </message>
     <message>
       <location filename="../a2p_constraintServices.py" line="109"/>
       <source>Re-adjust directions of all constraints to fit best</source>
-      <translation type="unfinished">Re-adjust directions of all constraints to fit best</translation>
+      <translation>重新调整所有制约因素的方向以适应最佳环境</translation>
     </message>
   </context>
   <context>
@@ -1588,72 +1588,72 @@ to a fixed part!
     <message>
       <location filename="../a2p_constraintcommands.py" line="56"/>
       <source>Add pointIdentity constraint</source>
-      <translation type="unfinished">Add pointIdentity constraint</translation>
+      <translation>添加点识别约束</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="82"/>
       <source>Add pointOnLine constraint</source>
-      <translation type="unfinished">Add pointOnLine constraint</translation>
+      <translation>添加 pointOnLine 约束</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="108"/>
       <source>Add pointOnPlane constraint</source>
-      <translation type="unfinished">Add pointOnPlane constraint</translation>
+      <translation>添加 pointOnPlane 约束</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="133"/>
       <source>Add sphereCenterIdent constraint</source>
-      <translation type="unfinished">Add sphereCenterIdent constraint</translation>
+      <translation>添加拼写中心标识约束</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="158"/>
       <source>Add circularEdge constraint</source>
-      <translation type="unfinished">Add circularEdge constraint</translation>
+      <translation>添加循环边缘约束</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="183"/>
       <source>Add axis Coincident constraint</source>
-      <translation type="unfinished">Add axis Coincident constraint</translation>
+      <translation>添加轴并发约束</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="208"/>
       <source>Add axisParallel constraint</source>
-      <translation type="unfinished">Add axisParallel constraint</translation>
+      <translation>添加轴并联约束</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="233"/>
       <source>Add axisPlaneParallel constraint</source>
-      <translation type="unfinished">Add axisPlaneParallel constraint</translation>
+      <translation>添加轴平行约束</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="258"/>
       <source>Add axisPlaneAngle constraint</source>
-      <translation type="unfinished">Add axisPlaneAngle constraint</translation>
+      <translation>添加轴平面角约束</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="283"/>
       <source>Add axisPlaneNormal constraint</source>
-      <translation type="unfinished">Add axisPlaneNormal constraint</translation>
+      <translation>添加轴平面约束性</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="308"/>
       <source>Add planesParallel constraint</source>
-      <translation type="unfinished">Add planesParallel constraint</translation>
+      <translation>添加 planesParal 约束</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="333"/>
       <source>Add planeCoincident constraint</source>
-      <translation type="unfinished">Add planeCoincident constraint</translation>
+      <translation>添加 planeCoincent 约束</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="359"/>
       <source>Add angledPlanes constraint</source>
-      <translation type="unfinished">Add angledPlanes constraint</translation>
+      <translation>添加角度图形约束</translation>
     </message>
     <message>
       <location filename="../a2p_constraintcommands.py" line="386"/>
       <source>Add centerOfMass constraint</source>
-      <translation type="unfinished">Add centerOfMass constraint</translation>
+      <translation>添加中心高炉约束</translation>
     </message>
   </context>
   <context>
@@ -1669,14 +1669,14 @@ Select:
 
 Button gets active after correct selection.
 </source>
-      <translation type="unfinished">
-Create the point-to-point constraint (pointIdentity)
+      <translation>
+创建点对点约束 (点身份)
 
-Select:
-1) A vertex, a circle, or a sphere (on a part)
-2) A vertex, a circle, or a sphere (on another part)
+选择：
+1) 一个顶点，一个圆圈， 或者球体(部分)
+2) 顶点、圆圈或球体(另一部分)
 
-Button gets active after correct selection.
+按钮在正确选择后生效。
 </translation>
     </message>
     <message>
@@ -1693,17 +1693,17 @@ it&apos;s axis will be taken as line definition.
 
 Button gets active after correct selection.
 </source>
-      <translation type="unfinished">
-Create the point-on-line constraint (pointOnLine)
+      <translation>
+创建点在线约束 (pointOnLine)
 
-Select:
-1) A vertex, a sphere, or a circle (on a part)
-2) A linear/circular edge, or a cylindrical face (on another part)
+选择：
+1) 顶点， a领域或圆圈(部分)
+2) 线性/圆边缘， 或圆柱面(另一部分)
 
-If the circular edge is selected,
-it&apos;s axis will be taken as line definition.
+如果圆形边缘被选中，
+它&apos;s轴将被用作线定义。
 
-Button gets active after correct selection.
+按钮在正确选择后激活。
 </translation>
     </message>
     <message>
@@ -1738,14 +1738,14 @@ Select:
 
 Button gets active after correct selection.
 </source>
-      <translation type="unfinished">
-Create the circular-edge constraint (circularEdge)
+      <translation>
+创建循环边缘约束 (循环边缘)
 
-Select:
-1) A circular edge (on a part)
-2) A circular edge (on another part)
+选择：
+1) 循环边缘(部分)
+2) 循环边缘(另一部分)
 
-Button gets active after correct selection.
+按钮在正确选择后被激活。
 </translation>
     </message>
     <message>
@@ -1761,16 +1761,16 @@ Select:
 
 Button gets active after correct selection.
 </source>
-      <translation type="unfinished">
-Create the axis-to-axis constraint (axisCoincident)
+      <translation>
+创建轴对轴约束 (axisCoincident)
 
-2 axis are aligned and will be moved to be coincident.
+2 轴对齐，并将被移动为巧合。
 
-Select:
-1) A cylindrical face or linear edge (on a part)
-2) A cylindrical face or linear edge (on another part)
+选择：
+1) 气瓶面或线性边缘(部分)
+2) 气瓶面或线性边缘(另一部分)
 
-Button gets active after correct selection.
+按钮在正确选择后生效。
 </translation>
     </message>
     <message>
@@ -1789,19 +1789,19 @@ If using circular edge, it&apos;s axis will be taken as line.
 
 Button gets active after correct selection.
 </source>
-      <translation type="unfinished">
-Create the parallel-axis constraint (axisParallel)
+      <translation>
+创建并行轴约束 (axisParallel)
 
-Axis&apos; will only rotate to be parallel, but will not
-be moved to be coincident.
+轴&apos; 只会旋转为平行轴， 但不会移动
+为巧合。
 
-Select:
-1) A linear/circular edge, or cylindrical face (on a part)
-2) A linear/circular edge, or cylindrical face (on another part)
+选择：
+1) 线性/圆形边缘，或圆柱面（部分）
+2) 线性/圆形边缘。 或圆柱面(另一部分)
 
-If using circular edge, it&apos;s axis will be taken as line.
+如果使用圆形边缘，它&apos;s 轴将被用作直线。
 
-Button gets active after correct selection.
+按钮在正确选择后激活。
 </translation>
     </message>
     <message>
@@ -1818,17 +1818,17 @@ selected plane. The parts are not moved to be coincident.
 
 Button gets active after correct selection.
 </source>
-      <translation type="unfinished">
-Create the axis-to-plane parallelism constraint (axisPlaneParallel)
+      <translation>
+创建轴对平行约束(axisPlaneParallel)
 
-Select:
-1) A linear edge, or cylinder axis (on a part)
-2) A plane face (on another part)
+选择：
+1) 线性边缘。 或圆柱形轴(部分)
+2) 平面面(另一部分)
 
-This constraint adjusts an axis parallel to a
-selected plane. The parts are not moved to be coincident.
+此约束调整一个轴与
+选定的平行平行。 零件不会被移动为正则表达式。
 
-Button gets active after correct selection.
+按钮在正确选择后激活。
 </translation>
     </message>
     <message>
@@ -1848,20 +1848,20 @@ The parts are not moved to be coincident.
 
 Button gets active after correct selection.
 </source>
-      <translation type="unfinished">
-Create the angular axis-to-plane constraint (axisPlaneAngle)
+      <translation>
+创建角轴对平面约束 (axisPlaneAngle)
 
-Select:
-1) A linear edge, or cylinder axis (on a part)
-2) A plane face (on another part)
+选择：
+1) 线性边缘。 或圆柱轴(部分)
+2) 平面面(另一部分)
 
-At first this constraint adjusts an axis parallel to a
-selected plane. Within the following popUp dialog you
-can define an angle.
+此约束首先调整一个轴与
+选定的平行平行。 在下面的弹出式对话框中，您
+可以定义一个角度。
 
-The parts are not moved to be coincident.
+零件不会被移动为巧合。
 
-Button gets active after correct selection.
+按钮在正确选择后被激活。
 </translation>
     </message>
     <message>
@@ -1879,18 +1879,17 @@ coincident.
 
 Button gets active after correct selection.
 </source>
-      <translation type="unfinished">
-Create the axis-plane-normal constraint (axisPlaneNormal)
+      <translation>
+创建轴对平行约束(axisPlaneParallel)
 
-Select:
-1) A linear edge, or cylinder axis (on a part)
-2) A plane face (on another part)
+选择：
+1) 线性边缘。 或圆柱形轴(部分)
+2) 平面面(另一部分)
 
-This constraint adjusts an axis vertical to a
-selected plane. The parts are not moved to be
-coincident.
+此约束调整一个轴与
+选定的平行平行。 零件不会被移动为正则表达式。
 
-Button gets active after correct selection.
+按钮在正确选择后激活。
 </translation>
     </message>
     <message>
@@ -1907,17 +1906,17 @@ Select:
 
 Button gets active after correct selection.
 </source>
-      <translation type="unfinished">
-Create the planes-parallelism constraint (planesParallel)
+      <translation>
+创建平行的约束 (平行平行平行平行平行平行)
 
-Planes will only rotate to be parallel, but not
-moved to be coincident.
+平面只会旋转，但不
+移动至巧合。
 
-Select:
-1) A plane (on a part)
-2) A plane (on another part)
+选择：
+1) 一架平面(部分)
+2) 一架平面(另一部分)
 
-Button gets active after correct selection.
+在正确选择后激活按钮
 </translation>
     </message>
     <message>
@@ -1931,14 +1930,14 @@ Select:
 
 Button gets active after correct selection.
 </source>
-      <translation type="unfinished">
-Create the coincident-plane constraint (planeCoincident)
+      <translation>
+创建适合平面约束 (planeCoincent)
 
-Select:
-1) A plane (on a part)
-2) A plane (on another part)
+选择:
+1) 一架平面(部分)
+2) 一架平面(另一部分)
 
-Button gets active after correct selection.
+按钮在正确选择后生效。
 </translation>
     </message>
     <message>
@@ -1962,24 +1961,24 @@ For that, is better to use planesParallel constraint.
 
 Button gets active after correct selection.
 </source>
-      <translation type="unfinished">
-Create the angled-planes constraint (angledPlanes)
+      <translation>
+创建对角平面约束(角度平面)
 
-Select:
-1) A plane (on a part)
-2) A plane (on another part)
+选择：
+1) 飞机(部分)
+2) 飞机(另一部分)
 
-After setting this constraint at first the actual
-angle between both planes is been calculated and
-stored to entry &quot;angle&quot; in object editor.
+在首次在两架平面之间设置实际的
+角度后，计算出了这个约束，并且
+存储到对象编辑器中的 &quot;角度&quot; 。
 
-The angle can be changed in the object editor
+可以在对象编辑器中改变角度
 
-Avoid using angles equals to 0 and 180 degrees.
-You could get strange results.
-For that, is better to use planesParallel constraint.
+避免使用角度等于0和180度。
+你可能会得到奇怪的结果。
+为此，最好使用平行约束。
 
-Button gets active after correct selection.
+按钮在正确选择后激活
 </translation>
     </message>
     <message>
@@ -1995,16 +1994,16 @@ When selecting a circle, it&apos;s center is used as a vertex.
 
 Button gets active after correct selection.
 </source>
-      <translation type="unfinished">
-Create the sphere-to-sphere constraint (sphereCenterIdent)
+      <translation>
+创建领域到领域的约束 (旋转中心身份)
 
-Select:
-1) A spherical surface, or a vertex (on a part)
-2) A spherical surface, or a vertex (on another part)
+选择：
+1) 球形面. 或一个顶点(部分)
+2) 一种球形表面 或者一个顶点(在另一个部分)
 
-When selecting a circle, it&apos;s center is used as a vertex.
+当选择一个圆时，它&apos;s 中心被用作顶点。
 
-Button gets active after correct selection.
+按钮在正确选择后激活。
 </translation>
     </message>
     <message>
@@ -2020,16 +2019,16 @@ It is possible to change the offset in object editor.
 
 Button gets active after correct selection.
 </source>
-      <translation type="unfinished">
-Create the center-of-mass constraint (centerOfMass)
+      <translation>
+创建群众中心约束 (centerOfMass)
 
-Select:
-1) A face, or a closed edge (on a part)
-2) A face, or a closed edge (on another part)
+选择：
+1) 面部。 或封闭的边缘(部分)
+2) A面 或关闭边缘(另一部分)
 
-It is possible to change the offset in object editor.
+可以更改对象编辑器中的偏移。
 
-Button gets active after correct selection.
+按钮在正确选择后激活。
 </translation>
     </message>
   </context>
@@ -2075,17 +2074,17 @@ within this workbench.
     <message>
       <location filename="../a2p_convertPart.py" line="168"/>
       <source>Convert a part to A2plus</source>
-      <translation type="unfinished">Convert a part to A2plus</translation>
+      <translation>转换元件到 A2plus</translation>
     </message>
     <message>
       <location filename="../a2p_convertPart.py" line="177"/>
       <source>Please select only visible parts!</source>
-      <translation type="unfinished">Please select only visible parts!</translation>
+      <translation>请只选择可见的配件！</translation>
     </message>
     <message>
       <location filename="../a2p_convertPart.py" line="178"/>
       <source>Conversion Aborted</source>
-      <translation type="unfinished">Conversion Aborted</translation>
+      <translation>转换已中止</translation>
     </message>
   </context>
   <context>
@@ -2093,7 +2092,7 @@ within this workbench.
     <message>
       <location filename="../a2plib.py" line="1132"/>
       <source>Not existing part(s):</source>
-      <translation type="unfinished">Not existing part(s):</translation>
+      <translation>不存在的零件：</translation>
     </message>
     <message>
       <location filename="../a2plib.py" line="1135"/>
@@ -2131,12 +2130,12 @@ by the parts list function of A2plus.
     <message>
       <location filename="../a2p_partinformation.py" line="59"/>
       <source>No active document found!</source>
-      <translation type="unfinished">No active document found!</translation>
+      <translation>未找到活动文档！</translation>
     </message>
     <message>
       <location filename="../a2p_partinformation.py" line="59"/>
       <source>You have to open a FCStd file first.</source>
-      <translation type="unfinished">You have to open a FCStd file first.</translation>
+      <translation>您必须先打开 FCStd 文件。</translation>
     </message>
     <message>
       <location filename="../a2p_partinformation.py" line="84"/>
@@ -2169,7 +2168,7 @@ trying to solve them one after another
     <message>
       <location filename="../a2p_searchConstraintConflicts.py" line="57"/>
       <source>There are no a2p constraints within this document.</source>
-      <translation type="unfinished">There are no a2p constraints within this document.</translation>
+      <translation>此文档中没有 a2p 限制。</translation>
     </message>
     <message>
       <location filename="../a2p_searchConstraintConflicts.py" line="75"/>
@@ -2205,12 +2204,12 @@ Do you want to delete this constraint-pair?
     <message>
       <location filename="../a2p_searchConstraintConflicts.py" line="96"/>
       <source>Searching for conflicting constraints</source>
-      <translation type="unfinished">Searching for conflicting constraints</translation>
+      <translation>搜索冲突约束</translation>
     </message>
     <message>
       <location filename="../a2p_searchConstraintConflicts.py" line="113"/>
       <source>Identify conflicting constraints</source>
-      <translation type="unfinished">Identify conflicting constraints</translation>
+      <translation>确定冲突约束</translation>
     </message>
   </context>
   <context>
@@ -2218,7 +2217,7 @@ Do you want to delete this constraint-pair?
     <message>
       <location filename="../InitGui.py" line="52"/>
       <source>An other assembly workbench for FreeCAD.</source>
-      <translation type="unfinished">An other assembly workbench for FreeCAD.</translation>
+      <translation>FreeCAD 的其他组装工作台。</translation>
     </message>
   </context>
   <context>
@@ -2226,56 +2225,56 @@ Do you want to delete this constraint-pair?
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="20"/>
       <source>A2plus settings</source>
-      <translation type="unfinished">A2plus settings</translation>
+      <translation>A2plus设置</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="38"/>
       <source>User interface settings</source>
-      <translation type="unfinished">User interface settings</translation>
+      <translation>用户界面设置</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="53"/>
       <source>Adds a creation button for every constraint type to the toolbar</source>
-      <translation type="unfinished">Adds a creation button for every constraint type to the toolbar</translation>
+      <translation>为每个约束类型添加创建按钮到工具栏</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="56"/>
       <source>Show constraints in toolbar</source>
-      <translation type="unfinished">Show constraints in toolbar</translation>
+      <translation>在工具栏中显示约束</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="72"/>
       <source>Use native file manager of your OS</source>
-      <translation type="unfinished">Use native file manager of your OS</translation>
+      <translation>使用您操作系统的本地文件管理器</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="107"/>
       <source>Behavior when updating imported parts</source>
-      <translation type="unfinished">Behavior when updating imported parts</translation>
+      <translation>更新导入部件时的行为</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="122"/>
       <source>All parts of the assembly will be opened in FreeCAD to be
 reconstructed using values from spreadsheets</source>
-      <translation type="unfinished">All parts of the assembly will be opened in FreeCAD to be
-reconstructed using values from spreadsheets</translation>
+      <translation>程序集的所有部分将在 FreeCAD 中打开，然后使用
+从电子表格中的值进行重建</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="126"/>
       <source>Recalculate imported parts before updating them (experimental)</source>
-      <translation type="unfinished">Recalculate imported parts before updating them (experimental)</translation>
+      <translation>在更新前重新计算导入的元件(实验性)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="139"/>
       <source>Opens all subassemblies recursively
 to update them</source>
-      <translation type="unfinished">Opens all subassemblies recursively
-to update them</translation>
+      <translation>递归打开所有子组件
+以更新它们。</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="143"/>
       <source>Enable recursive update of imported parts</source>
-      <translation type="unfinished">Enable recursive update of imported parts</translation>
+      <translation>启用导入部件的递归更新</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="156"/>
@@ -2283,27 +2282,26 @@ to update them</translation>
 are written into &quot;mux Info&quot; property. When the parts are
 later updated the properties &quot;Sub Elementx&quot; of the constraints
 will be updated according to the &quot;mux Info&quot; topology.</source>
-      <translation type="unfinished">While importing parts to the assembly, the topological names
-are written into &quot;mux Info&quot; property. When the parts are
-later updated the properties &quot;Sub Elementx&quot; of the constraints
-will be updated according to the &quot;mux Info&quot; topology.</translation>
+      <translation>在向组件导入部件时，
+的地名被写入 &quot;mux Info&quot; 属性。 当组件是
+稍后更新时，约束的属性 &quot;子元素&quot; 将根据 &quot;mux信息&quot; 地形更新
+。</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="162"/>
       <source>Use experimental topological naming</source>
-      <translation type="unfinished">Use experimental topological naming</translation>
+      <translation>使用实验性地物命名。</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="175"/>
       <source>Use color and transparency settings
 from imported parts</source>
-      <translation type="unfinished">Use color and transparency settings
-from imported parts</translation>
+      <translation>从导入的部件使用颜色和透明度设置</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="179"/>
       <source>Inherit per face color and transparency from parts and subassemblies (experimental)</source>
-      <translation type="unfinished">Inherit per face color and transparency from parts and subassemblies (experimental)</translation>
+      <translation>从零部件和子组件中继承每个脸色和透明度(实验性)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="192"/>
@@ -2311,89 +2309,88 @@ from imported parts</translation>
 Note: No constraints must be connected to
 datum/construction shapes in higher or other
 subassemblies. Otherwise you can break the assembly.</source>
-      <translation type="unfinished">Invisible datum/construction shapes will be hidden.
-Note: No constraints must be connected to
-datum/construction shapes in higher or other
-subassemblies. Otherwise you can break the assembly.</translation>
+      <translation>隐藏的数据/构造形状将被隐藏。
+注意：没有约束必须连接到
+数据/构建形状在较高或其他
+子组件中。否则您可以破坏组合。</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="198"/>
       <source>All imported parts will directly be put together as union.</source>
-      <translation type="unfinished">All imported parts will directly be put together as union.</translation>
+      <translation>所有进口的部件都将作为结合直接组合。</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="201"/>
       <source>Do not import invisible shapes (for expert users)</source>
-      <translation type="unfinished">Do not import invisible shapes (for expert users)</translation>
+      <translation>不要导入隐形形状 (适用于专家用户)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="214"/>
       <source>Use solid union for importing parts and subassemblies (experimental)</source>
-      <translation type="unfinished">Use solid union for importing parts and subassemblies (experimental)</translation>
+      <translation>使用固体结合来导入零部件和分组件(实验性)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="243"/>
       <source>Storage of files</source>
-      <translation type="unfinished">Storage of files</translation>
+      <translation>文件存储</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="258"/>
       <source>Use relative paths for imported parts</source>
-      <translation type="unfinished">Use relative paths for imported parts</translation>
+      <translation>对导入的零件使用相对路径</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="274"/>
       <source>Use absolute paths for imported parts</source>
-      <translation type="unfinished">Use absolute paths for imported parts</translation>
+      <translation>导入零件时使用绝对路径</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="287"/>
       <source>Specify the project folder in the field below</source>
-      <translation type="unfinished">Specify the project folder in the field below</translation>
+      <translation>指定下面字段中的项目文件夹</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="290"/>
       <source>All files are in this project folder:</source>
-      <translation type="unfinished">All files are in this project folder:</translation>
+      <translation>所有文件都在此项目文件夹中：</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="347"/>
       <source>Default solver behavior</source>
-      <translation type="unfinished">Default solver behavior</translation>
+      <translation>默认求解器行为</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="359"/>
       <source>Solve automatically if a constraint property is changed</source>
-      <translation type="unfinished">Solve automatically if a constraint property is changed</translation>
+      <translation>更改约束属性时自动求解</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="388"/>
       <source>Default solving method</source>
-      <translation type="unfinished">Default solving method</translation>
+      <translation>默认解决方法</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="409"/>
       <source>Solver tries to move all parts at once
 in direction to a fixed part</source>
-      <translation type="unfinished">Solver tries to move all parts at once
-in direction to a fixed part</translation>
+      <translation>求解器试图一次性将所有部件移动到一个固定部分</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="413"/>
       <source>Use &quot;magnetic&quot; solver, solving all parts at once (for dynamical assemblies)</source>
-      <translation type="unfinished">Use &quot;magnetic&quot; solver, solving all parts at once (for dynamical assemblies)</translation>
+      <translation>使用 &quot;磁力&quot; 解析所有部件 (用于动态组件)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="426"/>
       <source>All parts will be fixed to the positions
 where they were created</source>
-      <translation type="unfinished">All parts will be fixed to the positions
-where they were created</translation>
+      <translation>所有配件都将被修复到
+创建的位置</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="430"/>
       <source>Force fixed position to all imports</source>
-      <translation type="unfinished">Force fixed position to all imports</translation>
+      <translation>强制所有进口的固定位置</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="449"/>
@@ -2401,15 +2398,15 @@ where they were created</translation>
 All other parts are not calculated. If a solution could be
 found, the next constrained part is added for the
 calculation and so on.</source>
-      <translation type="unfinished">Solver begins with a fixed part and a part constrained to it.
-All other parts are not calculated. If a solution could be
-found, the next constrained part is added for the
-calculation and so on.</translation>
+      <translation>求解器以固定的部件开始，并且被约束。
+所有其他部件都不会被计算。 如果找到了一个解决方案
+，下一个受限制的部分将被添加到
+计算中，等等。</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="455"/>
       <source>Use solving of partial systems (recommended for static assemblies)</source>
-      <translation type="unfinished">Use solving of partial systems (recommended for static assemblies)</translation>
+      <translation>使用部分系统 (推荐给静态组装)</translation>
     </message>
   </context>
 </TS>
