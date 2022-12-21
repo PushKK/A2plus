@@ -1,27 +1,26 @@
-# -*- coding: utf-8 -*-
-#***************************************************************************
-#*                                                                         *
-#*   Copyright (c) 2018 kbwbe                                              *
-#*                                                                         *
-#*   Portions of code based on hamish's assembly 2                         *
-#*                                                                         *
-#*   This program is free software; you can redistribute it and/or modify  *
-#*   it under the terms of the GNU Lesser General Public License (LGPL)    *
-#*   as published by the Free Software Foundation; either version 2 of     *
-#*   the License, or (at your option) any later version.                   *
-#*   for detail see the LICENCE text file.                                 *
-#*                                                                         *
-#*   This program is distributed in the hope that it will be useful,       *
-#*   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
-#*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
-#*   GNU Library General Public License for more details.                  *
-#*                                                                         *
-#*   You should have received a copy of the GNU Library General Public     *
-#*   License along with this program; if not, write to the Free Software   *
-#*   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  *
-#*   USA                                                                   *
-#*                                                                         *
-#***************************************************************************
+# ***************************************************************************
+# *                                                                         *
+# *   Copyright (c) 2018 kbwbe                                              *
+# *                                                                         *
+# *   Portions of code based on hamish's assembly 2                         *
+# *                                                                         *
+# *   This program is free software; you can redistribute it and/or modify  *
+# *   it under the terms of the GNU Lesser General Public License (LGPL)    *
+# *   as published by the Free Software Foundation; either version 2 of     *
+# *   the License, or (at your option) any later version.                   *
+# *   for detail see the LICENCE text file.                                 *
+# *                                                                         *
+# *   This program is distributed in the hope that it will be useful,       *
+# *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+# *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+# *   GNU Library General Public License for more details.                  *
+# *                                                                         *
+# *   You should have received a copy of the GNU Library General Public     *
+# *   License along with this program; if not, write to the Free Software   *
+# *   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  *
+# *   USA                                                                   *
+# *                                                                         *
+# ***************************************************************************
 
 __title__ = 'A2plus assembly Workbench - InitGui file'
 __author__ = 'kbwbe'
@@ -30,22 +29,22 @@ __author__ = 'kbwbe'
 import sys
 import FreeCAD
 import FreeCADGui
-translate = FreeCAD.Qt.translate
-QT_TRANSLATE_NOOP = FreeCAD.Qt.QT_TRANSLATE_NOOP
 
 import a2plib
 import a2p_Resources3
 
+translate = FreeCAD.Qt.translate
+QT_TRANSLATE_NOOP = FreeCAD.Qt.QT_TRANSLATE_NOOP
+
 
 class A2plusWorkbench (Workbench):
-
 
     def __init__(self):
         translate = FreeCAD.Qt.translate
         import a2plib
         self.__class__.Icon = a2plib.pathOfModule() + "/icons/a2p_Workbench.svg"
         self.__class__.MenuText = 'A2plus'
-        self.__class__.ToolTip  = translate("A2plus", "An other assembly workbench for FreeCAD.")
+        self.__class__.ToolTip = translate("A2plus", "An other assembly workbench for FreeCAD.")
 
     def Initialize(self):
         translate = FreeCAD.Qt.translate
@@ -74,13 +73,13 @@ class A2plusWorkbench (Workbench):
         import a2p_partinformation
         import a2p_ConstraintDialog
         import a2p_constraintcommands
-        import a2p_BoM # BoM == Bill of Materials == partslist
+        import a2p_BoM  # BoM == Bill of Materials == partslist
         import a2p_constraintServices
         import a2p_searchConstraintConflicts
         import CD_A2plusupdater  # for Constraint Diagnostic function
         import CD_CheckConstraints
         import CD_OneButton
-        
+
         # Create list of commands for toolbar A2p_Part and menu A2plus
         partCommands = [
             'a2p_ImportPart',
@@ -168,7 +167,6 @@ class A2plusWorkbench (Workbench):
             'a2p_absPath_to_relPath_Command',
             'a2p_MigrateProxiesCommand'
             ]
-       
 
         # Create toolbars
         self.appendToolbar(
@@ -195,7 +193,6 @@ class A2plusWorkbench (Workbench):
            'A2p_Diagnostics',
            DiagnosticCommands
            )
-
 
         # Create menus
         self.appendMenu(
@@ -226,9 +223,8 @@ class A2plusWorkbench (Workbench):
 
         FreeCADGui.addPreferencePage(
             a2plib.pathOfModule() +
-            '/GuiA2p/Resources/ui/a2p_prefs.ui','A2plus'
+            '/GuiA2p/Resources/ui/a2p_prefs.ui', 'A2plus'
             )
-
 
     def Activated(self):
         import a2p_observers
@@ -239,11 +235,12 @@ class A2plusWorkbench (Workbench):
         FreeCAD.removeDocumentObserver(a2p_observers.redoUndoObserver)
 
     def ContextMenu(self, recipient):
-        import FreeCAD, FreeCADGui
-        selection = [s  for s in FreeCADGui.Selection.getSelection() if s.Document == FreeCAD.ActiveDocument ]
+        import FreeCAD
+        import FreeCADGui
+        selection = [s for s in FreeCADGui.Selection.getSelection() if s.Document == FreeCAD.ActiveDocument]
         if len(selection) == 1:
             obj = selection[0]
-            if 'sourceFile' in  obj.Content:
+            if 'sourceFile' in obj.Content:
                 self.appendContextMenu(
                     "A2plus",
                     [
@@ -255,5 +252,6 @@ class A2plusWorkbench (Workbench):
                       'a2p_ToggleTransparencyCommand'
                       ]
                     )
+
 
 Gui.addWorkbench(A2plusWorkbench())
