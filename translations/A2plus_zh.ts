@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="zh-CN" sourcelanguage="en">
+<TS version="2.1" language="zh-TW" sourcelanguage="en">
   <context>
     <name>A2p_BoM</name>
     <message>
@@ -741,7 +741,7 @@ toggled between &apos;aligned&apos; and
     <message>
       <location filename="../a2p_solversystem.py" line="713"/>
       <source>No active document found!</source>
-      <translation>未找到活动文档！</translation>
+      <translation type="unfinished">No active document found!</translation>
     </message>
     <message>
       <location filename="../a2p_importpart.py" line="1889"/>
@@ -2501,17 +2501,17 @@ within this workbench.
     <message>
       <location filename="../a2p_convertPart.py" line="163"/>
       <source>Convert a part to A2plus</source>
-      <translation>转换元件到 A2plus</translation>
+      <translation type="unfinished">Convert a part to A2plus</translation>
     </message>
     <message>
       <location filename="../a2p_convertPart.py" line="172"/>
       <source>Please select only visible parts!</source>
-      <translation>请只选择可见的配件！</translation>
+      <translation type="unfinished">Please select only visible parts!</translation>
     </message>
     <message>
       <location filename="../a2p_convertPart.py" line="173"/>
       <source>Conversion Aborted</source>
-      <translation>转换已中止</translation>
+      <translation type="unfinished">Conversion Aborted</translation>
     </message>
   </context>
   <context>
@@ -2534,7 +2534,7 @@ trying to solve them one after another
     <message>
       <location filename="../a2p_searchConstraintConflicts.py" line="57"/>
       <source>There are no a2p constraints within this document.</source>
-      <translation>此文档中没有 a2p 限制。</translation>
+      <translation type="unfinished">There are no a2p constraints within this document.</translation>
     </message>
     <message>
       <location filename="../a2p_searchConstraintConflicts.py" line="75"/>
@@ -2570,12 +2570,12 @@ Do you want to delete this constraint-pair?
     <message>
       <location filename="../a2p_searchConstraintConflicts.py" line="96"/>
       <source>Searching for conflicting constraints</source>
-      <translation>搜索冲突约束</translation>
+      <translation type="unfinished">Searching for conflicting constraints</translation>
     </message>
     <message>
       <location filename="../a2p_searchConstraintConflicts.py" line="113"/>
       <source>Identify conflicting constraints</source>
-      <translation>确定冲突约束</translation>
+      <translation type="unfinished">Identify conflicting constraints</translation>
     </message>
   </context>
   <context>
@@ -2583,56 +2583,56 @@ Do you want to delete this constraint-pair?
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="20"/>
       <source>A2plus settings</source>
-      <translation>A2plus设置</translation>
+      <translation type="unfinished">A2plus settings</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="38"/>
       <source>User interface settings</source>
-      <translation>用户界面设置</translation>
+      <translation type="unfinished">User interface settings</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="53"/>
       <source>Adds a creation button for every constraint type to the toolbar</source>
-      <translation>为每个约束类型添加创建按钮到工具栏</translation>
+      <translation type="unfinished">Adds a creation button for every constraint type to the toolbar</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="56"/>
       <source>Show constraints in toolbar</source>
-      <translation>在工具栏中显示约束</translation>
+      <translation type="unfinished">Show constraints in toolbar</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="72"/>
       <source>Use native file manager of your OS</source>
-      <translation>使用您操作系统的本地文件管理器</translation>
+      <translation type="unfinished">Use native file manager of your OS</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="107"/>
       <source>Behavior when updating imported parts</source>
-      <translation>更新导入部件时的行为</translation>
+      <translation type="unfinished">Behavior when updating imported parts</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="122"/>
       <source>All parts of the assembly will be opened in FreeCAD to be
 reconstructed using values from spreadsheets</source>
-      <translation>程序集的所有部分将在 FreeCAD 中打开，然后使用
-从电子表格中的值进行重建</translation>
+      <translation type="unfinished">All parts of the assembly will be opened in FreeCAD to be
+reconstructed using values from spreadsheets</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="126"/>
       <source>Recalculate imported parts before updating them (experimental)</source>
-      <translation>在更新前重新计算导入的元件(实验性)</translation>
+      <translation type="unfinished">Recalculate imported parts before updating them (experimental)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="139"/>
       <source>Opens all subassemblies recursively
 to update them</source>
-      <translation>递归打开所有子组件
-以更新它们。</translation>
+      <translation type="unfinished">Opens all subassemblies recursively
+to update them</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="143"/>
       <source>Enable recursive update of imported parts</source>
-      <translation>启用导入部件的递归更新</translation>
+      <translation type="unfinished">Enable recursive update of imported parts</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="156"/>
@@ -2640,20 +2640,20 @@ to update them</source>
 are written into &quot;mux Info&quot; property. When the parts are
 later updated the properties &quot;Sub Elementx&quot; of the constraints
 will be updated according to the &quot;mux Info&quot; topology.</source>
-      <translation>在向组件导入部件时，
-的地名被写入 &quot;mux Info&quot; 属性。 当组件是
-稍后更新时，约束的属性 &quot;子元素&quot; 将根据 &quot;mux信息&quot; 地形更新
-。</translation>
+      <translation type="unfinished">While importing parts to the assembly, the topological names
+are written into &quot;mux Info&quot; property. When the parts are
+later updated the properties &quot;Sub Elementx&quot; of the constraints
+will be updated according to the &quot;mux Info&quot; topology.</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="162"/>
       <source>Use experimental topological naming</source>
-      <translation>使用实验性地物命名。</translation>
+      <translation type="unfinished">Use experimental topological naming</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="180"/>
       <source>Inherit per face color and transparency from parts and subassemblies (experimental)</source>
-      <translation>从零部件和子组件中继承每个脸色和透明度(实验性)</translation>
+      <translation type="unfinished">Inherit per face color and transparency from parts and subassemblies (experimental)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="193"/>
@@ -2661,88 +2661,89 @@ will be updated according to the &quot;mux Info&quot; topology.</source>
 Note: No constraints must be connected to
 datum/construction shapes in higher or other
 subassemblies. Otherwise you can break the assembly.</source>
-      <translation>隐藏的数据/构造形状将被隐藏。
-注意：没有约束必须连接到
-数据/构建形状在较高或其他
-子组件中。否则您可以破坏组合。</translation>
+      <translation type="unfinished">Invisible datum/construction shapes will be hidden.
+Note: No constraints must be connected to
+datum/construction shapes in higher or other
+subassemblies. Otherwise you can break the assembly.</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="199"/>
       <source>All imported parts will directly be put together as union.</source>
-      <translation>所有进口的部件都将作为结合直接组合。</translation>
+      <translation type="unfinished">All imported parts will directly be put together as union.</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="202"/>
       <source>Do not import invisible shapes (for expert users)</source>
-      <translation>不要导入隐形形状 (适用于专家用户)</translation>
+      <translation type="unfinished">Do not import invisible shapes (for expert users)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="215"/>
       <source>Use solid union for importing parts and subassemblies (experimental)</source>
-      <translation>使用固体结合来导入零部件和分组件(实验性)</translation>
+      <translation type="unfinished">Use solid union for importing parts and subassemblies (experimental)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="244"/>
       <source>Storage of files</source>
-      <translation>文件存储</translation>
+      <translation type="unfinished">Storage of files</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="259"/>
       <source>Use relative paths for imported parts</source>
-      <translation>对导入的零件使用相对路径</translation>
+      <translation type="unfinished">Use relative paths for imported parts</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="275"/>
       <source>Use absolute paths for imported parts</source>
-      <translation>导入零件时使用绝对路径</translation>
+      <translation type="unfinished">Use absolute paths for imported parts</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="288"/>
       <source>Specify the project folder in the field below</source>
-      <translation>指定下面字段中的项目文件夹</translation>
+      <translation type="unfinished">Specify the project folder in the field below</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="291"/>
       <source>All files are in this project folder:</source>
-      <translation>所有文件都在此项目文件夹中：</translation>
+      <translation type="unfinished">All files are in this project folder:</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="348"/>
       <source>Default solver behavior</source>
-      <translation>默认求解器行为</translation>
+      <translation type="unfinished">Default solver behavior</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="360"/>
       <source>Solve automatically if a constraint property is changed</source>
-      <translation>更改约束属性时自动求解</translation>
+      <translation type="unfinished">Solve automatically if a constraint property is changed</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="389"/>
       <source>Default solving method</source>
-      <translation>默认解决方法</translation>
+      <translation type="unfinished">Default solving method</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="410"/>
       <source>Solver tries to move all parts at once
 in direction to a fixed part</source>
-      <translation>求解器试图一次性将所有部件移动到一个固定部分</translation>
+      <translation type="unfinished">Solver tries to move all parts at once
+in direction to a fixed part</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="414"/>
       <source>Use &quot;magnetic&quot; solver, solving all parts at once (for dynamical assemblies)</source>
-      <translation>使用 &quot;磁力&quot; 解析所有部件 (用于动态组件)</translation>
+      <translation type="unfinished">Use &quot;magnetic&quot; solver, solving all parts at once (for dynamical assemblies)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="427"/>
       <source>All parts will be fixed to the positions
 where they were created</source>
-      <translation>所有配件都将被修复到
-创建的位置</translation>
+      <translation type="unfinished">All parts will be fixed to the positions
+where they were created</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="431"/>
       <source>Force fixed position to all imports</source>
-      <translation>强制所有进口的固定位置</translation>
+      <translation type="unfinished">Force fixed position to all imports</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="450"/>
@@ -2750,15 +2751,15 @@ where they were created</source>
 All other parts are not calculated. If a solution could be
 found, the next constrained part is added for the
 calculation and so on.</source>
-      <translation>求解器以固定的部件开始，并且被约束。
-所有其他部件都不会被计算。 如果找到了一个解决方案
-，下一个受限制的部分将被添加到
-计算中，等等。</translation>
+      <translation type="unfinished">Solver begins with a fixed part and a part constrained to it.
+All other parts are not calculated. If a solution could be
+found, the next constrained part is added for the
+calculation and so on.</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="456"/>
       <source>Use solving of partial systems (recommended for static assemblies)</source>
-      <translation>使用部分系统 (推荐给静态组装)</translation>
+      <translation type="unfinished">Use solving of partial systems (recommended for static assemblies)</translation>
     </message>
     <message>
       <location filename="../GuiA2p/Resources/ui/a2p_prefs.ui" line="175"/>
